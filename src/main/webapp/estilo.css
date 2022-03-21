@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+input{
+
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid gray;
+	font-size: 12pt;
+	padding: 8px 16px;
+
+}
+
+input [type=submit] {
+	border: none;
+	background-color: #FF0065;
+
+
+}

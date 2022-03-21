@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+	
+	<head> 
+	
+	<title> Tela de Cadastro </title>
+	<link rel= "stylesheet" href= "estilo.css" />
+	
+	
+	</head>
+	
+	<body>
+	
+		<center> <h1> <b> Cadastro FortalServices </b> </h1> </center>
+		<p></p>
+		<center><h2> Digite os dados abaixo para realizar o cadastro! </h2></center>
+
+		<h:form>
+		<p></p>
+		<center><h:outputText value = "Digite seu Nome:"></h:outputText></center>
+		<p></p>
+		<center><h:inputText value ="#{primeiroBean.usuario.nome}" ></h:inputText></center>
+		<p></p>
+		<center><h:outputText value = "Digite seu Email:"></h:outputText></center>
+		<p></p>
+		<center><h:inputText value ="#{primeiroBean.usuario.email}" ></h:inputText></center>
+		<p></p>
+		<center><h:outputText value = "Digite seu Telefone:"></h:outputText></center>
+		<p></p>
+		<center><h:inputText value ="#{primeiroBean.usuario.telefone}" ></h:inputText></center>
+		<p></p>
+		<center><h:outputText value = "Digite seu CPF:"></h:outputText></center>
+		<p></p>
+		<center><h:inputText value ="#{primeiroBean.usuario.cpf}" ></h:inputText></center>
+		<p></p>
+		<center><h:outputText value = "Digite sua Senha:"></h:outputText></center>
+		<p></p>
+		<center><h:inputText value ="#{primeiroBean.usuario.senha}" ></h:inputText></center>
+		<p></p>
+		<center><h:commandButton value = "Cadastrar" action = "#{primeiroBean.cadastrar}"></h:commandButton></center>
+		</h:form>
+	
+		
+	</body>
+
+</html>
